@@ -1,0 +1,54 @@
+body{
+  font-family:Arial;
+  margin:0;
+  background:#0f172a;
+  color:white;
+}
+
+header{
+  background:#ff6b00;
+  padding:20px;
+  text-align:center;
+}
+
+.hero{
+  text-align:center;
+  padding:60px;
+  background:#111827;
+}
+
+.hero button{
+  padding:15px 25px;
+  background:#22c55e;
+  border:none;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.stats{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
+  background:#1f2937;
+}
+
+.booking{
+  text-align:center;
+  padding:40px;
+}
+
+.booking input{
+  display:block;
+  margin:10px auto;
+  padding:10px;
+  width:250px;
+}
+
+.booking button{
+  padding:12px 20px;
+  background:#ff6b00;
+  border:none;
+  color:white;
+}
