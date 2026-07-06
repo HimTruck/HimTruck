@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HimTruck Startup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🚛 HimTruck Startup</h1>
+  <p>India’s Smart Hill Transport Network</p>
+</header>
+
+<section class="hero">
+  <h2>Book Trucks in 10 Seconds</h2>
+  <button onclick="openBooking()">Start Booking</button>
+</section>
+
+<section class="stats">
+  <div>🚛 500+ Trucks Network</div>
+  <div>📦 10,000+ Deliveries</div>
+  <div>🏔 Himachal Strong Network</div>
+</section>
+
+<section class="booking" id="booking">
+  <h2>Quick Booking</h2>
+
+  <input id="name" placeholder="Name">
+  <input id="phone" placeholder="Phone">
+  <input id="from" placeholder="From Location">
+  <input id="to" placeholder="To Location">
+
+  <button onclick="submitBooking()">Send to System</button>
+</section>
+
+<footer>
+  <p>© HimTruck Startup 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
